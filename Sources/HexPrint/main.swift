@@ -21,6 +21,9 @@ func main() {
                 count = 0
             }
         }
+        if line != "" {
+            print(line)
+        }
     } catch let error {
         print("Error: \(error)")
     }
